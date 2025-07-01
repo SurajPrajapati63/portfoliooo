@@ -96,14 +96,14 @@ const Hero = () => {
                 <span>Hire Me</span>
                 <Mail className="ml-2 w-5 h-5 group-hover:rotate-12 transition-transform" />
               </Button>
-              
-              <Button 
-                variant="ghost"
-                className="group text-white/80 hover:text-white hover:bg-white/10 px-6 py-4 text-lg rounded-xl transition-all duration-300"
-              >
-                <Download className="mr-2 w-5 h-5 group-hover:translate-y-1 transition-transform" />
-                Resume
-              </Button>
+              <a href="/Suraj_Resume.pdf" download>
+                <Button 
+                  variant="ghost"
+                  className="group text-white/80 hover:text-white hover:bg-white/10 px-6 py-4 text-lg rounded-xl transition-all duration-300">
+                  <Download className="mr-2 w-5 h-5 group-hover:translate-y-1 transition-transform" />
+                  Resume
+                </Button>
+              </a>
             </div>
 
             {/* Enhanced Social Links */}

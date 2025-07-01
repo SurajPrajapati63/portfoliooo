@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { link } from 'fs';
 
 const Projects = () => {
   const projects = [
@@ -10,6 +11,7 @@ const Projects = () => {
       description: "A comprehensive web platform connecting job seekers with recruiters, featuring user authentication, job posting, application tracking, and advanced search functionality.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Authentication"],
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      link:"https://github.com/SurajPrajapati63/Job-Listening-Portal",
       color: "from-blue-500 to-purple-600"
     },
     {
@@ -18,6 +20,7 @@ const Projects = () => {
       description: "A secure platform for validating certificates with blockchain-inspired verification, QR code generation, and tamper-proof certificate management.",
       technologies: ["React.js", "Node.js", "MySQL", "QR Code API", "Crypto"],
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      link:"https://github.com/SurajPrajapati63/certificate_verification",
       color: "from-green-500 to-teal-600"
     },
     {
@@ -26,6 +29,7 @@ const Projects = () => {
       description: "An innovative web application that generates high-quality images from text prompts using advanced AI models, with user-friendly interface and gallery features.",
       technologies: ["React.js", "AI API Integration", "JavaScript", "CSS3", "REST APIs"],
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop",
+      link:"https://github.com/SurajPrajapati63/AI-Image-Generator",
       color: "from-orange-500 to-red-600"
     }
   ];
@@ -58,7 +62,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <span className="text-gradient-primary font-semibold text-lg">PORTFOLIO</span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 mt-2">
-            Featured Projects
+            Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Showcasing my latest work in web development, from full-stack applications 
@@ -103,12 +107,11 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <Button className="flex-1 bg-gradient-primary hover:opacity-90 text-white">
-                    View Details
-                  </Button>
-                  <Button variant="outline" className="flex-shrink-0">
-                    Live Demo
-                  </Button>
+                  <a href={project.link}>
+                    <Button className="flex-1 bg-gradient-primary hover:opacity-90 text-white">
+                      View Details
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
