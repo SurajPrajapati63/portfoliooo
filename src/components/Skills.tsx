@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: "💻",
-      skills: ["C", "C++", "Java", "JavaScript"]
+      skills: ["C", "C++", "Python", "JavaScript"]
     },
     {
       title: "Web Development",
@@ -31,7 +31,7 @@ const Skills = () => {
     {
       title: "Tools & Others",
       icon: "🛠️",
-      skills: ["Git", "MS Office", "Problem Solving"]
+      skills: ["Git", "NumPy","Pandas","Matplotlib","FastAPI", "AWS Google cloud"]
     }
   ];
 
@@ -91,7 +91,7 @@ const Skills = () => {
               <div className="text-white/90">Web Technologies</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-yellow-400">3+</div>
+              <div className="text-3xl font-bold text-yellow-400">10+</div>
               <div className="text-white/90">Major Projects</div>
             </div>
           </div>
