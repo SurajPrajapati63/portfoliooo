@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navLinkClass = "relative text-gray-700 transition-colors hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full";
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -28,44 +29,43 @@ const Header = () => {
               alt="Suraj Prajapati logo"
               className="h-10 w-10 rounded-full object-cover"
             />
-            <span>Suraj</span>
           </a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               Skills
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-indigo-600 transition-colors"
+              className={navLinkClass}
             >
               Contact
             </button>
@@ -95,12 +95,12 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4 mt-4">
-              <button onClick={() => scrollToSection('home')} className="text-left text-gray-700">Home</button>
-              <button onClick={() => scrollToSection('about')} className="text-left text-gray-700">About</button>
-              <button onClick={() => scrollToSection('skills')} className="text-left text-gray-700">Skills</button>
-              <button onClick={() => scrollToSection('services')} className="text-left text-gray-700">Services</button>
-              <button onClick={() => scrollToSection('projects')} className="text-left text-gray-700">Projects</button>
-              <button onClick={() => scrollToSection('contact')} className="text-left text-gray-700">Contact</button>
+              <button onClick={() => scrollToSection('home')} className={`${navLinkClass} text-left`}>Home</button>
+              <button onClick={() => scrollToSection('about')} className={`${navLinkClass} text-left`}>About</button>
+              <button onClick={() => scrollToSection('skills')} className={`${navLinkClass} text-left`}>Skills</button>
+              <button onClick={() => scrollToSection('services')} className={`${navLinkClass} text-left`}>Services</button>
+              <button onClick={() => scrollToSection('projects')} className={`${navLinkClass} text-left`}>Projects</button>
+              <button onClick={() => scrollToSection('contact')} className={`${navLinkClass} text-left`}>Contact</button>
             </div>
           </div>
         )}
