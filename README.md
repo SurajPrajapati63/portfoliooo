@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
 
-## Project info
+# Suraj Prajapati Portfolio
 
-**URL**: https://lovable.dev/projects/1a25e98e-4d08-46cc-9883-1eec3f647f8c
+Personal portfolio website for Suraj Prajapati, showcasing web applications, data engineering projects, technical skills, and contact information.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Responsive single-page portfolio layout
+- Hero, About, Skills, Services, Projects, Contact, and Footer sections
+- Project cards with repository and live-demo links
+- Downloadable resume
+- GitHub and LinkedIn profile links
+- Mobile navigation and smooth section-based navigation
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a25e98e-4d08-46cc-9883-1eec3f647f8c) and start prompting.
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui and Radix UI
+- Lucide React icons
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 18 or newer
+- npm
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will print the local URL in the terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Production Build
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview the Production Build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+```
 
-This project is built with:
+### Lint
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run lint
+```
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/1a25e98e-4d08-46cc-9883-1eec3f647f8c) and click on Share -> Publish.
+```text
+src/
+├── components/       Reusable portfolio sections and UI components
+├── hooks/             Shared React hooks
+├── lib/               Shared utilities
+├── pages/             Application pages
+├── App.tsx            Application routes and providers
+└── main.tsx           Application entry point
+public/
+├── suraj.png          Portfolio logo
+├── clipart2381085.png Favicon asset
+└── Suraj Prajapati - ResumeN.pdf
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Featured Projects
 
-Yes, you can!
+- [Nomnom App](https://github.com/SurajPrajapati63/Nomnom-app)
+- [Ruhi Agent](https://ruhi-agent.vercel.app/)
+- [RozgarSetu](https://github.com/SurajPrajapati63/RozgarSetu)
+- [Hospital Management](https://github.com/SurajPrajapati63/Hospital_management)
+- [ETL Pipeline Monitoring Automation](https://github.com/SurajPrajapati63/ETL-Pipeline-Monitoring-Automation)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- GitHub: [SurajPrajapati63](https://github.com/SurajPrajapati63)
+- LinkedIn: [Suraj Prajapati](https://www.linkedin.com/in/suraj-prajapati-07b076262)
