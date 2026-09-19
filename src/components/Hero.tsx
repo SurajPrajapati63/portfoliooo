@@ -53,7 +53,7 @@ const Hero = () => {
               {/* Enhanced Typography */}
               <h1 className="text-6xl lg:text-8xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
                 Suraj
-                <span className="block text-4xl lg:text-5xl bg-gradient-secondary bg-clip-text text-transparent mt-2 font-light">
+                <span className="block text-4xl lg:text-5xl bg-gradient-secondary bg-clip-text text-transparent mt-2 font-light ">
                   Prajapati
                 </span>
               </h1>
@@ -64,15 +64,15 @@ const Hero = () => {
                   I'm a{' '}
                   <span className="relative inline-block">
                     <span className="bg-gradient-secondary bg-clip-text text-transparent font-semibold">
-                      Software Developer
+                      Software Developer & AI Developer
                     </span>
                     <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-secondary animate-pulse"></div>
                   </span>
                 </div>
                 <p className="text-lg text-white/80 leading-relaxed max-w-lg">
-                  B.Tech Computer Science student passionate about creating
+                  B.Tech Computer Science and Engineering passionate about creating
                   <span className="text-yellow-300 font-medium"> efficient</span> and
-                  <span className="text-purple-300 font-medium"> dynamic</span> web applications
+                  <span className="text-purple-300 font-medium"> dynamic</span> web applications & AI Agents
                   with modern technologies.
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Hero = () => {
                 <span>Hire Me</span>
                 <Mail className="ml-2 w-5 h-5 group-hover:rotate-12 transition-transform" />
               </Button>
-              <a href="portfolioo/public/ats resume.pdf" download>
+              <a href="/Suraj%20Prajapati%20-%20ResumeN.pdf" download>
                 <Button
                   variant="ghost"
                   className="group text-white/80 hover:text-white hover:bg-white/10 px-6 py-4 text-lg rounded-xl transition-all duration-300">
@@ -151,7 +151,7 @@ const Hero = () => {
                   {/* Profile Image Container */}
                   <div className="relative w-full h-full bg-gradient-to-br from-white via-purple-50 to-white rounded-full shadow-2xl overflow-hidden">
                     <img
-                      src="public/suraj.png"
+                      src="/suraj.png"
                       alt="Suraj Prajapati - Software Developer"
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                     />
@@ -163,7 +163,7 @@ const Hero = () => {
 
                 {/* Enhanced Floating Elements */}
                 <div className="absolute -top-6 -right-6 bg-gradient-to-r from-purple-500 to-pink-500 backdrop-blur-lg rounded-2xl p-4 shadow-2xl animate-float border border-white/20">
-                  <div className="text-white text-sm font-bold">B.Tech CS</div>
+                  <div className="text-white text-sm font-bold">B.Tech CSE</div>
                   <div className="text-white/80 text-xs">2026 Graduate</div>
                 </div>
 
@@ -175,7 +175,9 @@ const Hero = () => {
                 <div className="absolute top-1/4 -left-8 bg-gradient-to-r from-cyan-500 to-blue-500 backdrop-blur-lg rounded-2xl p-3 shadow-2xl animate-float" style={{ animationDelay: '-3s' }}>
                   <div className="text-white text-xs font-bold">C++</div>
                 </div>
-
+                <div className="absolute top-3/4 -left-8 bg-gradient-to-r from-yellow-300 to-yellow-500 backdrop-blur-lg rounded-2xl p-3 shadow-2xl animate-float" style={{ animationDelay: '-2s' }}>
+                  <div className="text-white text-xs font-bold">AI Agent & Automation</div>
+                </div>
                 <div className="absolute top-3/4 -right-8 bg-gradient-to-r from-green-500 to-emerald-500 backdrop-blur-lg rounded-2xl p-3 shadow-2xl animate-float" style={{ animationDelay: '-2s' }}>
                   <div className="text-white text-xs font-bold">Python</div>
                 </div>
@@ -185,7 +187,7 @@ const Hero = () => {
             {/* Stats Cards */}
             <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 flex gap-4">
               <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-4 text-center animate-fade-in">
-                <div className="text-2xl font-bold text-white">3+</div>
+                <div className="text-2xl font-bold text-white">20+</div>
                 <div className="text-xs text-white/80">Projects</div>
               </div>
               <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-4 text-center animate-fade-in" style={{ animationDelay: '0.2s' }}>

@@ -17,9 +17,19 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            Suraj
-          </div>
+          <a
+            href="#home"
+            onClick={() => setIsMenuOpen(false)}
+            aria-label="Go to home"
+            className="flex items-center gap-3 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent"
+          >
+            <img
+              src="/clipart2381085.png"
+              alt="Suraj Prajapati logo"
+              className="h-10 w-10 rounded-full object-cover"
+            />
+            <span>Suraj</span>
+          </a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

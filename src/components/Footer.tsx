@@ -1,4 +1,6 @@
 
+import { Github, Linkedin } from 'lucide-react';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -12,7 +14,7 @@ const Footer = () => {
               Suraj Prajapati
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              B.Tech Computer Science student specializing in software and web development. 
+              B.Tech Computer Science and Engineering  specializing in software development , AI Agents and Automation. 
               Creating efficient and dynamic web applications with modern technologies.
             </p>
           </div>
@@ -45,17 +47,22 @@ const Footer = () => {
                   href="https://github.com/SurajPrajapati63" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  aria-label="GitHub profile"
+                  title="GitHub"
+                
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-md text-gray-400 hover:bg-white/10 hover:text-white transition-colors"
                 >
-                  GitHub
+                  <Github className="h-5 w-5" />
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/suraj-prajapati-07b076262" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  aria-label="LinkedIn profile"
+                  title="LinkedIn"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-md text-gray-400 hover:bg-white/10 hover:text-white transition-colors"
                 >
-                  LinkedIn
+                  <Linkedin className="h-5 w-5" />
                 </a>
               </div>
             </div>
