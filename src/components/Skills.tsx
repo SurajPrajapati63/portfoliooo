@@ -6,32 +6,47 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: "💻",
-      skills: ["C", "C++", "Python", "JavaScript"]
+      skills: ["C", "C++", "Python", "JavaScript", "SQL"]
     },
     {
-      title: "Web Development",
+      title: "Frontend Development",
       icon: "🌐",
-      skills: ["HTML", "CSS", "React.js", "Node.js", "Express.js"]
+      skills: ["HTML5", "CSS3", "React.js", "Tailwind CSS", "Bootstrap", "Responsive Design"]
     },
     {
-      title: "Styling & Frameworks",
-      icon: "🎨",
-      skills: ["Tailwind CSS", "Bootstrap", "Responsive Design"]
+      title: "Backend & APIs",
+      icon: "⚙️",
+      skills: ["Node.js", "Express.js", "FastAPI", "REST APIs"]
     },
     {
-      title: "Database",
+      title: "Databases",
       icon: "🗄️",
-      skills: ["MongoDB", "MySQL", "Database Design"]
+      skills: ["MongoDB", "MySQL", "ChromaDB", "Database Design"]
+    },
+    {
+      title: "Data Engineering",
+      icon: "📊",
+      skills: ["Apache Spark (PySpark)", "Databricks", "Azure Databricks", "ETL Pipelines", "Data Transformation", "Data Processing", "NumPy", "Pandas", "Matplotlib"]
+    },
+    {
+      title: "Cloud & AI",
+      icon: "☁️",
+      skills: ["AWS", "Azure", "Azure Blob Storage", "Generative AI", "LLMs", "RAG", "Prompt Engineering"]
+    },
+    {
+      title: "Libraries & Frameworks",
+      icon: "🧩",
+      skills: ["Streamlit", "LangChain", "LangGraph"]
+    },
+    {
+      title: "Tools & Practices",
+      icon: "🛠️",
+      skills: ["Git", "GitHub", "VS Code", "Postman", "CI/CD (GitHub Actions)"]
     },
     {
       title: "Core Concepts",
       icon: "🧠",
-      skills: ["OOPs", "Data Structures", "Algorithms"]
-    },
-    {
-      title: "Tools & Others",
-      icon: "🛠️",
-      skills: ["Git", "NumPy","Pandas","Matplotlib","FastAPI", "AWS Google cloud"]
+      skills: ["Object-Oriented Programming (OOP)", "Data Structures & Algorithms (DSA)"]
     }
   ];
 

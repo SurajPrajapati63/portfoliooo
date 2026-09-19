@@ -1,7 +1,6 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { link } from 'fs';
 
 const Projects = () => {
   const projects = [
@@ -31,6 +30,51 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop",
       link:"https://github.com/SurajPrajapati63/AI-Image-Generator",
       color: "from-orange-500 to-red-600"
+    },
+    {
+      title: "Nomnom App",
+      category: "Food Ordering Application",
+      description: "A food-focused application for discovering meals and creating a smooth ordering experience.",
+      technologies: ["React.js", "JavaScript", "CSS3", "REST APIs"],
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      link: "https://github.com/SurajPrajapati63/Nomnom-app",
+      color: "from-yellow-500 to-orange-600"
+    },
+    {
+      title: "Ruhi Agent",
+      category: "AI Assistant",
+      description: "An AI-powered assistant designed to provide helpful, conversational responses through a focused web experience.",
+      technologies: ["React.js", "AI Integration", "JavaScript", "Vercel"],
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+      link: "https://ruhi-agent.vercel.app/",
+      color: "from-cyan-500 to-blue-600"
+    },
+    {
+      title: "RozgarSetu",
+      category: "Employment Platform",
+      description: "A platform connecting job seekers with employment opportunities and helping users discover relevant career options.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&h=400&fit=crop",
+      link: "https://github.com/SurajPrajapati63/RozgarSetu",
+      color: "from-emerald-500 to-green-600"
+    },
+    {
+      title: "Hospital Management System",
+      category: "Healthcare Management",
+      description: "A management system for organizing hospital workflows, patient records, and day-to-day healthcare operations.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+      link: "https://github.com/SurajPrajapati63/Hospital_management",
+      color: "from-sky-500 to-indigo-600"
+    },
+    {
+      title: "ETL Pipeline Monitoring Automation",
+      category: "Data Engineering Tool",
+      description: "An automation project for monitoring ETL pipelines, tracking workflow health, and surfacing operational issues.",
+      technologies: ["Python", "ETL", "Automation", "Data Monitoring"],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      link: "https://github.com/SurajPrajapati63/ETL-Pipeline-Monitoring-Automation",
+      color: "from-violet-500 to-fuchsia-600"
     }
   ];
 
