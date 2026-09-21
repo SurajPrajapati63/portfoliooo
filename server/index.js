@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { makeGroundedAnswer } from './rag.js';
+import { answerPortfolioQuestion } from './agent.js';
 
 dotenv.config();
 
@@ -23,7 +23,7 @@ app.post('/api/chatbot', async (req, res) => {
       return res.status(400).json({ error: 'A valid question is required.' });
     }
 
-    const result = await makeGroundedAnswer(question.trim());
+    const result = await answerPortfolioQuestion(question.trim());
     res.json({
       answer: result.answer,
       debug: result.debug,
