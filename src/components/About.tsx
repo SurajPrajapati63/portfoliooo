@@ -10,7 +10,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I am a dedicated B.Tech Computer Science student with a passion for creating 
+            I am a dedicated B.Tech Computer Science and Engineering Graduate with a passion for creating 
             innovative solutions through code.
           </p>
         </div>
@@ -21,7 +21,7 @@ const About = () => {
               Designing Solutions, Not Just Visuals
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed">
-              As a passionate Computer Science student at Babu Banarasi Das University, 
+              As a passionate Computer Science and Engineering Graduate at Babu Banarasi Das University, 
               I specialize in creating efficient and dynamic web applications. My journey 
               in software development has equipped me with strong problem-solving skills 
               and a deep understanding of modern web technologies.
@@ -52,7 +52,7 @@ const About = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="font-semibold text-gray-900 mb-2">Education</h4>
               <p className="text-gray-700">
-                <strong>B.Tech Computer Science</strong><br/>
+                <strong>B.Tech Computer Science and Engineering</strong><br/>
                 Babu Banarasi Das University<br/>
                 Expected Graduation: 2026
               </p>
@@ -66,7 +66,7 @@ const About = () => {
                   <span className="text-2xl">🎓</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Education</h4>
-                <p className="text-gray-600">B.Tech CS Student graduating in 2026</p>
+                <p className="text-gray-600">B.Tech CSE  graduate in 2026</p>
               </CardContent>
             </Card>
 
@@ -76,7 +76,7 @@ const About = () => {
                   <span className="text-2xl">💻</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Specialization</h4>
-                <p className="text-gray-600">Software & Web Development</p>
+                <p className="text-gray-600">Computer Science and Engineering</p>
               </CardContent>
             </Card>
 
@@ -86,7 +86,7 @@ const About = () => {
                   <span className="text-2xl">🚀</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Focus</h4>
-                <p className="text-gray-600">Modern Web Technologies</p>
+                <p className="text-gray-600">Modern Web & AI Technologies </p>
               </CardContent>
             </Card>
 

@@ -20,9 +20,9 @@ const Services = () => {
     },
     {
       icon: "⚙️",
-      title: "Backend Development",
+      title: "Backend Development with AI Integration",
       subtitle: "Server-side Solutions",
-      description: "Developing robust backend systems with Node.js, Express.js, and database management for complete web applications.",
+      description: "Developing robust backend with AI-integrated systems with Node.js, Express.js,RAG, LangChain , LLMs and database management for complete web applications.",
       features: ["RESTful APIs", "Database Design", "Authentication", "Server Management"]
     }
   ];

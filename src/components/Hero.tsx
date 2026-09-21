@@ -70,7 +70,7 @@ const Hero = () => {
                   </span>
                 </div>
                 <p className="text-lg text-white/80 leading-relaxed max-w-lg">
-                  B.Tech Computer Science and Engineering passionate about creating
+                  B.Tech Computer Science and Engineering Graduate, passionate about creating
                   <span className="text-yellow-300 font-medium"> efficient</span> and
                   <span className="text-purple-300 font-medium"> dynamic</span> web applications & AI Agents
                   with modern technologies.
